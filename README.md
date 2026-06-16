@@ -19,6 +19,9 @@ Resultatet er at den nasjonale digitaliseringsstrategiens ambisjon (*«verdens m
 | [`docs/00-problemanalyse.md`](docs/00-problemanalyse.md) | Hva som faktisk mangler, forankret i dagens norske situasjon |
 | [`docs/01-rammeverk.md`](docs/01-rammeverk.md) | Den lagdelte modellen + prinsippene (charteret) |
 | [`docs/02-veikart.md`](docs/02-veikart.md) | Plan i faser, fra problemforankring til skalering |
+| [`docs/03-kunnskapsgrunnlag.md`](docs/03-kunnskapsgrunnlag.md) | Rules as Code / Better Rules-syntese, koblet til norsk praksis |
+| [`docs/04-norske-case.md`](docs/04-norske-case.md) | Tre norske case: besøksbidrag, fritidsbolig-skatt, barnehagetilskudd |
+| [`docs/05-kildelaget-og-lovprosessen.md`](docs/05-kildelaget-og-lovprosessen.md) | Hvordan en lov blir til, hvorfor den ikke er digital, og forslag til kildelag |
 | [`LISENS.md`](LISENS.md) | Anbefaling for lisensiering av tekst og kode |
 
 ## Sentrale referansepunkter

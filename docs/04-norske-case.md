@@ -42,6 +42,16 @@ Knytter til: hull 1 og 3 ([problemanalysen](00-problemanalyse.md)), prinsippene 
 
 ---
 
-## Hva de to sammen viser
+## Case C — Tilskudd til private barnehager: regelen som regneark
 
-Besøksbidrag er **muligheten**: et levende lovarbeid der vi kan vise digital-ready regelverk i praksis. Fritidsbolig-modellen er **kostnaden** ved dagens praksis: dyr, sen og ugjennomsiktig manuell konsekvensvurdering som likevel kollapser. Til sammen er de et konkret, norsk argument for å gjøre ex-ante regelmodellering til en standard del av regelverksarbeidet — som foreslått i [veikartet](02-veikart.md).
+**Verifiserte fakta:** KS og PBL (Private Barnehagers Landsforbund) tilbyr en veileder med tilhørende **regnearkmodell** for kommunenes beregning av tilskudd til private barnehager, ment for å gjøre beregningen etterprøvbar og i tråd med regelverket. Modellen oppdateres i versjoner — og en tidligere utgave hadde en **formelfeil** i selvkostberegningen (arbeidsgiveravgift av pensjon havnet feil i beregningsgrunnlaget).
+
+**RaC-lærdommen.** Her er regelen i praksis et Excel-ark som distribueres til ~300 kommuner, som hver kjører sin egen kopi. Det er duplisert-tolkning-problemet i renform: én latent formelfeil forplanter seg til alle som bruker arket, beregningene blir vanskelige å etterprøve på tvers, og tilskuddstvister mellom kommuner og private barnehager er en gjenganger. Som ett autoritativt, versjonert og testet regel-artefakt (regellaget) ville feilen vært rettet ett sted, og hver beregning vært sporbar til gjeldende regel. (UDI-presentasjonen trekker selv frem nettopp denne veilederen som et Excel-eksempel.)
+
+Knytter til: hull 1 og 5, og prinsippene om sporbarhet og likebehandling.
+
+---
+
+## Hva de tre sammen viser
+
+Besøksbidrag er **muligheten** — et levende lovarbeid der vi kan vise digital-ready regelverk i praksis. Fritidsbolig-modellen er **kostnaden ved å la være** — dyr, sen og ugjennomsiktig manuell konsekvensvurdering som likevel kollapser. Barnehagetilskuddet er **dagens nødløsning** — regler som regneark, kopiert og feilbeheftet. Til sammen er de et konkret, norsk argument for å gjøre strukturerte, autoritative regler og ex-ante regelmodellering til en standard del av regelverksarbeidet, slik [veikartet](02-veikart.md) foreslår.

@@ -12,6 +12,7 @@ Følger prinsippene fra [Keep a Changelog](https://keepachangelog.com/). Versjon
 - `CHANGELOG.md` — denne loggen.
 
 ### Endret
+- `docs/01-rammeverk.md` — lagt til «Regeltaksonomi: delte vs. fagspesifikke regler (etterlevelsesmodellen)» og prinsipp 9 («Modellér delte regler én gang»), basert på Politiets etterlevelsesmodell.
 - `docs/04-norske-case.md` — lagt til Case C: tilskudd til private barnehager (regelen som regneark, med formelfeil); oppdatert oppsummering til tre case.
 - `README.md` — strukturtabell oppdatert med docs 03–05.
 - `docs/03-kunnskapsgrunnlag.md` — lagt til avsnitt «Verifisert mot norsk praksis»; besøksbidrag-pilotdelen flyttet til `04-norske-case.md`; kildetabell oppdatert.

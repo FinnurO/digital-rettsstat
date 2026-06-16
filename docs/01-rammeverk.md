@@ -35,6 +35,18 @@ Brukerrettede tjenester organisert rundt livshendelser, bygget oppå lagene unde
 ### Tverrgående — Rettssikkerhet, personvern og styring
 Ikke et lag, men krav som gjelder hele stabelen: sporbarhet fra vedtak til versjonert kilde, retten til å forstå en avgjørelse, revisjon/logging, innebygd personvern, samt det vanskeligste — **eierskap, mandat og finansiering** for det tverrgående.
 
+## Regeltaksonomi: delte vs. fagspesifikke regler (etterlevelsesmodellen)
+
+Den lagdelte modellen sier *hvor* i kjeden en regel hører hjemme. En annen akse sier *hvor bredt* regelen gjelder. Politiets «etterlevelsesmodell» illustrerer dette med tre konsentriske ringer:
+
+- **Tverrgående/felles rettskilder** (ytterst) — gjelder hele forvaltningen: Grunnloven, EMK, forvaltningsloven, personopplysningsloven (GDPR), arkivloven, eForvaltningsforskriften, vergemålsloven m.fl.
+- **Virksomhetsgenerelle regler** — gjelder en hel etat/sektor: f.eks. politiregisterlovens generelle kapitler og politiloven.
+- **Fagspesifikke regler** — gjelder den enkelte tjeneste/oppgave: f.eks. straffeprosessloven, vegtrafikkloven, våpenloven, passloven.
+
+Dette svarer på spørsmålet «hvordan får vi etterlevelse, og hvordan lærer vi av hverandre?»: de **felles** rettskildene tolkes og implementeres i dag på nytt, hver for seg, i hver etat. Alle skal etterleve forvaltningsloven, GDPR, arkivloven og eForvaltningsforskriften — men gjør det forskjellig, i hver sin kode. Det er duplisert-tolkning-problemet løftet fra fagregler til selve fundamentet, der det koster mest for både rettssikkerhet og likebehandling.
+
+Konsekvensen for regellaget (Lag 2) er prinsipp 9 nedenfor: de delte reglene bør modelleres autoritativt **én gang** og gjenbrukes. Da blir etterlevelse *gjenbruk av samme autoritative regel* framfor ny tolkning per etat — og «å lære av hverandre» blir å konsumere en felles komponent, ikke å kopiere hverandres hjemmesnekrede løsninger.
+
 ## Prinsippene (charter)
 
 1. **Loven er infrastruktur.** Rettskilder og regellogikk er et felles gode som forvaltes deretter.
@@ -45,6 +57,7 @@ Ikke et lag, men krav som gjelder hele stabelen: sporbarhet fra vedtak til versj
 6. **Én gang-prinsippet.** Innbygger og næringsliv oppgir samme opplysning kun én gang.
 7. **Tverrfaglighet fra start.** Jurist, utvikler og tjenestedesigner i samme rom fra dag én — i tråd med Digdirs egne anbefalinger.
 8. **Forpliktende, ikke bare veiledende.** Standardene må forankres slik at de faktisk følges.
+9. **Modellér delte regler én gang.** Tverrgående rettskilder (forvaltningsloven, GDPR, arkivloven, eForvaltningsforskriften m.fl.) modelleres autoritativt én gang og gjenbrukes på tvers av etater — etterlevelse blir gjenbruk, ikke ny tolkning per virksomhet.
 
 ## Hva som gjør dette annerledes enn dagens tilstand
 

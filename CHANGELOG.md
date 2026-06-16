@@ -1,10 +1,11 @@
 # Endringslogg
 
-Følger prinsippene fra Keep a Changelog (https://keepachangelog.com/). Versjonering er foreløpig uformell (`v0` = utkastfasen).
+Følger prinsippene fra [Keep a Changelog](https://keepachangelog.com/). Versjonering er foreløpig uformell (`v0` = utkastfasen).
 
 ## [Ikke utgitt]
 
 ### Lagt til
+- `docs/03-kunnskapsgrunnlag.md` — syntese av Rules as Code / Better Rules-samlingen, koblet til rammeverket; foreslår besøksbidragsloven som Fase 1-pilot.
 - `CONTRIBUTING.md` — hvordan bidra, filkonvensjon og commit-meldinger.
 - `CHANGELOG.md` — denne loggen.
 

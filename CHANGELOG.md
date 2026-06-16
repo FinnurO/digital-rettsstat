@@ -5,9 +5,13 @@ Følger prinsippene fra [Keep a Changelog](https://keepachangelog.com/). Versjon
 ## [Ikke utgitt]
 
 ### Lagt til
-- `docs/03-kunnskapsgrunnlag.md` — syntese av Rules as Code / Better Rules-samlingen, koblet til rammeverket; foreslår besøksbidragsloven som Fase 1-pilot.
+- `docs/04-norske-case.md` — to norske case: besøksbidrag (Fase 1-pilot) og den forkastede fritidsbolig-verdsettelsen (kostnaden ved status quo).
+- `docs/03-kunnskapsgrunnlag.md` — syntese av Rules as Code / Better Rules-samlingen, koblet til rammeverket.
 - `CONTRIBUTING.md` — hvordan bidra, filkonvensjon og commit-meldinger.
 - `CHANGELOG.md` — denne loggen.
+
+### Endret
+- `docs/03-kunnskapsgrunnlag.md` — lagt til avsnitt «Verifisert mot norsk praksis» (NAV, Skatt, DIBK, Imdi, Brønnøysund, Lovdata-kritikk, regeltyper, kvalitetskrav, internasjonale forbilder); besøksbidrag-pilotdelen flyttet til `04-norske-case.md`; kildetabell oppdatert.
 
 ## v0 — Første utkast
 

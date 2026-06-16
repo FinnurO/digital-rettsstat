@@ -49,22 +49,23 @@ Dette er en viktig presisering for prinsipp 4 (skjønn forblir hos mennesker) og
 
 **GRIP** — rammeverk for å utdanne tverrfaglige fagpersoner som forstår både juss og teknologi *(venter på primærkilde)*. Relevant for Fase 2 (institusjonalisering) i [veikartet](02-veikart.md).
 
-## Kandidat for Fase 1-pilot: Lov om besøksbidrag
+## Verifisert mot norsk praksis
 
-Besøksbidragsloven er et nesten ideelt pilotområde for å bevise hele kjeden. Verifiserte fakta:
+Innspill fra norsk forvaltning bekrefter og skjerper bildet. (Enkelte kilder er behandlet som bakgrunn; interne, ikke-offentlige operative detaljer er ikke gjengitt her.)
 
-- Vedtatt av Stortinget sommeren 2025 (Prop. 96 L (2024–2025), Innst. 452 L, Lovvedtak 110). **Trer i kraft 1. juli 2026**; innkreving ventes første halvår 2027.
-- **Forskrift om overnattingsavgift er fortsatt under arbeid** og skal tre i kraft samtidig — det gir et levende vindu for digital-ready utforming *mens* regelverket lages.
-- Kommunal modell: kommuner med «særlig stor belastning fra reiselivet» kan innføre avgift (utgangspunkt tre prosent) for å finansiere reiselivsrelaterte fellesgoder.
+- **Flere etater er allerede i gang — hver for seg.** NAV og Skatteetaten har drøftet «digitaliserings- og automatiseringsvennlig regelverk», med gode erfaringer fra bl.a. oppgjør etter dødsfall, eResept og koronatiltak. DIBK har undersøkt modellering av TEK17 som RaC (DMN), Imdi har anskaffet et regelmotorverktøy, og Brønnøysundregistrene har erfaring siden 2009. Mønsteret bekrefter hull 5: kompetansen finnes, men er fragmentert uten felles standard.
+- **Lovdata dekker ikke kildelagets behov.** Lovdata er bare delvis digital *som data*: mangler annoteringer og toveis referanser (forskrift→lov finnes, men ikke lov→forskrift), og er dessuten en privat stiftelse. Tilgang til rettskilder som åpne data har også vært rettslig omstridt (Lovdata mot rettspraksis.no, 2018–2019). Dette underbygger hull 1.
+- **Regeltyper å skille mellom (regellaget):** interaksjonsregler, konverterings-/transformasjonsregler, juridiske regler (rettskilder), forretningsregler (f.eks. DMN), verifiseringsregler og regelstyringsobjekter (krav, tiltak, konklusjon).
+- **Kvalitetskrav for tverrlaget:** sporbarhet, etterrettlighet, transparens (med begrunnelse), tilgjengelighet, tillit, risikoreduksjon, endringstakt/effektivitet, etterlevelse, rettssikkerhet og likebehandling — målt opp mot rene effektivitetstall som saksbehandlingstid og automatiseringsgrad.
+- **To veier til digitalt regelverk:** (1) endre lov-/forskriftsprosessen slik at digitale lovverk leveres av tverrfaglige team fra start, eller (2) la rettsanvenderen oversette vedtatt lov til en digital versjon med annoteringer og forretningsregler. Ikke alle lover egner seg for RaC, men alle kan bli «digitale tvillinger».
+- **Internasjonale forbilder:** New Zealand (opphav til Better Rules), Australia (åpen RaC-plattform, «Regulation as a Platform») og Nederland (DSO — full digital omlegging av miljøforvaltningen, med standardene STTR/IMTR/STOP og DMN+Drools i kjernen). OECD/OPSI «Cracking the Code» er det samlende referanseverket.
 
-Hvorfor den egner seg:
+## Norske case
 
-1. **Regel + skjønn i samme lov.** Klare satser og innkrevingsplikt (regel) side om side med terskelen «særlig stor belastning» og departementets godkjenning av kommunens plan (skjønn) — perfekt for å teste grensen i regellaget.
-2. **«Leaky borders» er innebygd.** Avgiften følger kommunegrensen, mens fellesgodene og behovet ikke gjør det. Dette er nøyaktig duplisert-tolkning-problemet: uten felles regelinfrastruktur må hver kommune og hvert bookingsystem tolke loven hver for seg.
-3. **Mange aktører som må implementere samme regel.** Kommunene, NFD, kommersielle overnattingssteder og plattformer (Airbnb, FINN.no m.fl.) pålegges roller. Det roper etter én delt, autoritativ regel framfor N private tolkninger.
-4. **Tidsvinduet.** At loven er vedtatt men ikke i kraft, og forskriften ennå skrives, er den beste muligheten til å demonstrere RaC i praksis på norsk regelverk.
+To norske case forankrer rammeverket empirisk. Se [`04-norske-case.md`](04-norske-case.md):
 
-> Din egen «Strategisk Blåkopi» for besøksbidrag (#493 i samlingen) er trolig det mest verdifulle dokumentet å laste opp — den lar oss koble pilotforslaget til din strategiske tenkning.
+- **Lov om besøksbidrag** — kandidat for Fase 1-pilot (vedtatt, i kraft 1.7.2026, forskrift fortsatt under arbeid → levende vindu).
+- **Ny verdsettelsesmodell for fritidsboliger** — forkastet av Finansdepartementet i 2026 etter flere års arbeid (PwC, Skatteetaten, Kartverket, SSB); illustrerer hva fravær av ex-ante regelmodellering koster.
 
 ## Kilder (utvalg fra samlingen)
 
@@ -75,12 +76,12 @@ Hvorfor den egner seg:
 | 11 | GRIP on Agile law implementation | Rammeverk (PDF) | Venter på opplasting |
 | 14 | LEOS v5.0.3 User Manual | Manual (PDF) | Venter på opplasting |
 | 19 | LexImpact (Assemblée nationale) | Verktøy (FR) | Offentlig — kan hentes |
-| 20 | Lov om besøksbidrag | Lovtekst | **Verifisert** |
+| 20 | Lov om besøksbidrag (LOV-2025-06-20-104) | Lovtekst | **Verifisert** |
 | 21 | OECD Better Regulation 2025 | Rapport | Offentlig — kan hentes |
 | 34 | Rules as Code – An Open approach | EU-artikkel | Offentlig — kan hentes |
 | 357 | XHAILe (Københavns universitet) | Forskning | Venter på primærkilde |
 | 369 | LEXplain (UiB) | Forskning | Venter på primærkilde |
-| 435 | Rules as Code and Better Rules (UDI) | Presentasjon (PDF) | Venter på opplasting |
+| 435 | Rules as Code and Better Rules (UDI) | Presentasjon (PDF) | Lest — intern, ikke for publisering |
 | 478 | Better Rules for Government Discovery Report | NZ-rapport | Offentlig — kan hentes |
 | 490 | RaC: from complex rules to explainable interpretations | TNO-artikkel | Offentlig — kan hentes |
 | 493 | Lov om besøksbidrag: Strategisk Blåkopi | Strategidokument (PDF) | **Prioritert opplasting** |

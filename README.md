@@ -23,6 +23,7 @@ Resultatet er at den nasjonale digitaliseringsstrategiens ambisjon (*«verdens m
 | [`docs/04-norske-case.md`](docs/04-norske-case.md) | Tre norske case: besøksbidrag, fritidsbolig-skatt, barnehagetilskudd |
 | [`docs/05-kildelaget-og-lovprosessen.md`](docs/05-kildelaget-og-lovprosessen.md) | Hvordan en lov blir til, hvorfor den ikke er digital, og forslag til kildelag |
 | [`docs/06-regellaget.md`](docs/06-regellaget.md) | Hvordan rettskilde blir kjørbar regel, og hvor grensen regel/skjønn trekkes |
+| [`docs/07-standarder-og-sporbarhetskjeden.md`](docs/07-standarder-og-sporbarhetskjeden.md) | Hvilke standarder vi mangler, og hvordan formatene gir sporbarhet fra lov til vedtak |
 | [`LISENS.md`](LISENS.md) | Anbefaling for lisensiering av tekst og kode |
 
 ## Sentrale referansepunkter

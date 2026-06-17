@@ -14,6 +14,8 @@ Følger prinsippene fra [Keep a Changelog](https://keepachangelog.com/). Versjon
 - `CHANGELOG.md` — denne loggen.
 
 ### Endret
+- `docs/06-regellaget.md` — lagt til underavsnitt «‘Regel’ betyr tre ulike ting» (rettsregel/beslutningsregel/kjørbar regel; hvordan kjeden adresserer flertydigheten med felles hjemmelsanker, mellomspråk og tverrfaglighet).
+- `docs/02-veikart.md` — ny seksjon «Egnethet, byrde og prioritering» (egnethet per bestemmelse via regel/skjønn; Pareto-prioritering etter byrde; Tysklands byråkratiindeks (Wagner/ESMT) vs. byrde-/kostnadsindeks; byrde som suksessmål; per-lov-gjennomgang parkert).
 - `docs/05-kildelaget-og-lovprosessen.md` — ny del 3.3 «Strukturert høring» (Schartums e-høringsprototype ~2007 med «Lovspeil»-fane; LEOS/EdiT i interservice-høring; Alkoholflokens postgang-eksempel); Schartum-lovspeilet oppgradert fra «venter på primærkilde» til offentlig kilde (CompLex 1/2025 + Lov&Data 2025, «regelvask»); kildefot oppdatert.
 - `docs/03-kunnskapsgrunnlag.md` — LEOS verifisert mot brukermanual v5.0.3 (AKN4EU, versjonering, auto-oppdaterte referanser, EdiT i interservice-høring); KI-seksjonen utvidet med simulator-vs-avgjørelsesmotor-linja og Alkoholfloken; Rulemapping lagt til; Norske case og kildetabell oppdatert (fire case, Helsedir/Rulemapping/NAV som verifiserte offentlige kilder).
 - `docs/04-norske-case.md` — intro og oppsummering oppdatert fra tre til fire case.

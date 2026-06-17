@@ -16,6 +16,23 @@ Det som gjør regellaget særlig følsomt, er at en regel ikke avgjør én sak, 
 
 Konsekvensen for utformingen: oversettelsen fra tekst til regel må være et **dokumentert, gjennomgåbart trinn** med tydelig hjemmelssporing — ikke en bieffekt av at noen skriver kode.
 
+### «Regel» betyr tre ulike ting
+
+Mye av oversettelsesgapet skyldes at ett ord bærer tre betydninger gjennom kjeden, og at de tre som bruker det ikke vet at de mener forskjellige ting:
+
+- For **juristen** er en regel en *rettsregel* — en normativ slutning fra rettskildene, som bærer hjemmel, tolkningsrom og skjønn. Den kan være vag med vilje.
+- For **fageksperten/forretningssiden** er en regel en *beslutnings-/forretningsregel* — en operasjonell betingelse («hvis vilkår A og B, så utfall C»), gjerne som beslutningstabell. Den abstraherer bort den juridiske begrunnelsen og ser på utfallet.
+- For **utvikleren** er en regel *kjørbar logikk* — det maskinen faktisk gjør, med datastrukturer, feilhåndtering og grensetilfeller.
+
+Samme ord, tre artefakter, tre eiere, tre feilmodi. Når de tre antar at «regelen» er én ting, forsvinner tolkningsvalgene i sprekkene mellom dem — det er nettopp der trygdeskandalen oppstod. Kjeden adresserer dette på fire måter:
+
+1. **Navngi de tre, aldri bare «regel».** Vokabularet skiller rettsregel, beslutningsregel og kjørbar regel som distinkte, navngitte artefakter (jf. regeltypene i [`03`](03-kunnskapsgrunnlag.md)). «Regelen sier X» er ufullstendig til man vet hvilken.
+2. **Felles hjemmelsanker.** Hver representasjon bærer samme stabile peker (ELI ned i [Lag 1](05-kildelaget-og-lovprosessen.md)), slik at man kan spore fra kjørbar regel tilbake til rettsregel og rettskilde. [Lovspeilet](05-kildelaget-og-lovprosessen.md) er denne bindingen.
+3. **Mellomspråk som er lesbare for to sider samtidig.** DMN er lesbart for både fagekspert og utvikler; FLINT/NRML ligger mellom jurist og resten. De fungerer som grenseobjekter der to fag deler én modell i stedet for å oversette i blinde.
+4. **Tverrfaglig fra dag én (prinsipp 7).** Innsiktsfasen (jf. Politiets juridiske innsiktsarbeid i [`03`](03-kunnskapsgrunnlag.md)) tvinger jurist, fagekspert og utvikler til å bygge én delt modell *før* koden — og verifiseringsregler holder den kjørbare regelen i samsvar med rettsregelen etterpå.
+
+Poenget er ikke å tvinge alle til å bruke ordet likt, men å gjøre oversettelsen mellom de tre til et synlig, sporbart trinn i stedet for en stilltiende antakelse.
+
 ## 3. Grensen regel/skjønn
 
 Dette er kjernen i hele laget, og det vanskeligste. Prinsipp 4 i charteret er ufravikelig: **skjønn forblir hos mennesker der loven krever en vurdering.** Automatisering avlaster, men erstatter ikke rettsanvendelse som krever skjønn. Spørsmålet regellaget må svare på er hvor den grensen går — og hvordan den gjøres synlig i selve regelen.

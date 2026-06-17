@@ -33,7 +33,7 @@ Dette bekrefter at rammeverkets bærende krav — **sporbarhet fra vedtak til ve
 - **DMN** (Decision Model and Notation) — OMG-standard for å modellere beslutningslogikk; bro mellom forretningsregler og utførelse.
 - **ELI** (European Legislation Identifier) — stabil, unik identifikator for rettsakter; grunnlaget for sporbarhet i kildelaget. **ECLI** er motstykket for rettsavgjørelser.
 - **Akoma Ntoso / LegalDocML** — åpen XML-standard for rettslige dokumenter.
-- **LEOS** — EUs åpne verktøy for samarbeid om lovtekst i Akoma Ntoso-XML *(venter på primærkilde: brukermanual i samlingen)*.
+- **LEOS** (Legislation Editing Open Software) — EUs åpne verktøy for å skrive lovtekst i Akoma Ntoso-XML (AKN4EU) med sanntids samarbeid. **Verifisert mot brukermanual v5.0.3:** strukturerte dokumenter (lovtekst, begrunnelse, finansieringsnotat, vedlegg), versjonering med XML-eksport og sammenligning, sporing av (også strukturelle) endringer, interne referanser som oppdateres automatisk når strukturen endres, og import fra Official Journal/EUR-Lex. Kommisjonens instans «EdiT» håndterer dessuten kommentarer og endringsforslag i interservice-høringen som strukturerte artefakter.
 - **OpenFisca** — åpen motor for å representere lovgivning som kjørbar kode (mikrosimulering); brukt i bl.a. LexImpact (Frankrike) for å simulere effekten av reformer før vedtak.
 - **FLINT** — formelt språk (Nederland/TNO) for å tolke rettskilder til maskinlesbare normative rammeverk.
 - **NRML** (Normalized Rule Model Language) — JSON-basert utvekslingsformat for maskinlesbare regler *(fra samlingen/samtalehistorikk — bør verifiseres mot spesifikasjon)*.
@@ -41,9 +41,9 @@ Dette bekrefter at rammeverkets bærende krav — **sporbarhet fra vedtak til ve
 ## Kunstig intelligens — dobbel rolle
 
 1. **Som akselerator:** generativ KI kan hjelpe jurister å transformere lineær lovtekst til logiske modeller (f.eks. DMN/NRML).
-2. **Behov for guardrails:** fordi LLM-er kan hallusinere, må *selve avgjørelsen* styres av deterministiske RaC-regler, ikke av modellen. Forskning på hybride tilnærminger: **XHAILe** (Københavns universitet) og **LEXplain** (UiB) *(begge venter på primærkilde)*.
+2. **Behov for guardrails:** fordi LLM-er kan hallusinere, må *selve avgjørelsen* styres av deterministiske RaC-regler, ikke av modellen. Forskning på hybride tilnærminger: **XHAILe** (Københavns universitet) og **LEXplain** (UiB) *(begge venter på primærkilde)*. Et beslektet, verktøystøttet spor er **Rulemapping** (rulemapping.org, SPRIND-finansiert): en deterministisk regelkjerne der LLM-er bare brukes til å håndtere ustrukturerte data under menneske-i-løkka.
 
-Dette er en viktig presisering for prinsipp 4 (skjønn forblir hos mennesker) og hull 3: KI kan assistere utforming og forklaring, men den autoritative regelen må være deterministisk og sporbar.
+Dette er en viktig presisering for prinsipp 4 (skjønn forblir hos mennesker) og hull 3: KI kan assistere utforming og forklaring, men den autoritative regelen må være deterministisk og sporbar. Linja kan sies kort: **KI som simulator/utforsker — ja; KI som autoritativ avgjørelsesmotor — nei.** [Alkoholfloken](04-norske-case.md) (Case D) er en levende norsk demonstrasjon: en KI-drevet «digital tvilling» brukt til å *simulere* effekten av regelendringer, som eksplisitt ikke gir fasitsvar, og hvis eget risikobilde navngir nettopp hallusinering og overdreven tillit som farene — som er hvorfor avgjørelsen ikke kan ligge hos modellen.
 
 ## Kompetanse
 
@@ -62,10 +62,12 @@ Innspill fra norsk forvaltning bekrefter og skjerper bildet. (Enkelte kilder er 
 
 ## Norske case
 
-To norske case forankrer rammeverket empirisk. Se [`04-norske-case.md`](04-norske-case.md):
+Fire norske case forankrer rammeverket empirisk. Se [`04-norske-case.md`](04-norske-case.md):
 
 - **Lov om besøksbidrag** — kandidat for Fase 1-pilot (vedtatt, i kraft 1.7.2026, forskrift fortsatt under arbeid → levende vindu).
 - **Ny verdsettelsesmodell for fritidsboliger** — forkastet av Finansdepartementet i 2026 etter flere års arbeid (PwC, Skatteetaten, Kartverket, SSB); illustrerer hva fravær av ex-ante regelmodellering koster.
+- **Tilskudd til private barnehager** — regelen som regneark med latent formelfeil, kopiert til ~300 kommuner; duplisert tolkning i renform.
+- **Alkoholfloken** — Helsedirektoratets utredning (2025) + Stimulab-prosjekt med en KI-drevet «digital tvilling»; fragmentering, ex-ante-simulering, og et konkret eksempel på grensen KI-simulator vs. autoritativ avgjørelse.
 
 ## Kilder (utvalg fra samlingen)
 
@@ -74,11 +76,14 @@ To norske case forankrer rammeverket empirisk. Se [`04-norske-case.md`](04-norsk
 | 1 | Cracking the Code: Rulemaking for humans and machines | OECD/OPSI-rapport | Offentlig — kan hentes |
 | 4 | Digital-ready Policymaking | EU-portal | Offentlig — kan hentes |
 | 11 | GRIP on Agile law implementation | Rammeverk (PDF) | Venter på opplasting |
-| 14 | LEOS v5.0.3 User Manual | Manual (PDF) | Venter på opplasting |
+| 14 | LEOS v5.0.3 User Manual | Manual (PDF) | **Verifisert** (Europakommisjonen, CC BY 4.0) |
 | 19 | LexImpact (Assemblée nationale) | Verktøy (FR) | Offentlig — kan hentes |
 | 20 | Lov om besøksbidrag (LOV-2025-06-20-104) | Lovtekst | **Verifisert** |
 | 21 | OECD Better Regulation 2025 | Rapport | Offentlig — kan hentes |
 | 34 | Rules as Code – An Open approach | EU-artikkel | Offentlig — kan hentes |
+| — | Helsedirektoratet: Veien til en smidigere brukerreise (alkohol) | Utredning | **Verifisert** (offentlig, 2025) |
+| — | Rulemapping / Rulemap Builder | Verktøy (DE) | **Verifisert** (offentlig) |
+| — | NAV: automatisk behandling, Behandlingskatalog, åpen kildekode | Praksis/kode | **Verifisert** (offentlig) |
 | 357 | XHAILe (Københavns universitet) | Forskning | Venter på primærkilde |
 | 369 | LEXplain (UiB) | Forskning | Venter på primærkilde |
 | 435 | Rules as Code and Better Rules (UDI) | Presentasjon (PDF) | Lest — intern, ikke for publisering |

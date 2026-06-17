@@ -1,6 +1,6 @@
 # 04 — Norske case
 
-To norske case forankrer rammeverket empirisk: ett **framoverlent** (besøksbidrag — gjør det riktig nå) og ett **advarende** (fritidsbolig-verdsettelsen — kostnaden ved å la være). Sammen utgjør de argumentet for ex-ante regelmodellering som standard.
+Fire norske case forankrer rammeverket empirisk: ett **framoverlent** (besøksbidrag — gjør det riktig nå), ett **advarende** (fritidsbolig-verdsettelsen — kostnaden ved å la være), ett som viser **dagens nødløsning** (barnehagetilskuddet — regelen som regneark), og ett **pågående forsøk** på å angripe en fragmentert flok med systemdesign og ex-ante-simulering (Alkoholfloken). Sammen utgjør de argumentet for strukturerte, autoritative regler og ex-ante regelmodellering som standard.
 
 ---
 
@@ -52,6 +52,25 @@ Knytter til: hull 1 og 5, og prinsippene om sporbarhet og likebehandling.
 
 ---
 
-## Hva de tre sammen viser
+## Case D — Alkoholfloken: regelverket som floke, og den digitale tvillingen
 
-Besøksbidrag er **muligheten** — et levende lovarbeid der vi kan vise digital-ready regelverk i praksis. Fritidsbolig-modellen er **kostnaden ved å la være** — dyr, sen og ugjennomsiktig manuell konsekvensvurdering som likevel kollapser. Barnehagetilskuddet er **dagens nødløsning** — regler som regneark, kopiert og feilbeheftet. Til sammen er de et konkret, norsk argument for å gjøre strukturerte, autoritative regler og ex-ante regelmodellering til en standard del av regelverksarbeidet, slik [veikartet](02-veikart.md) foreslår.
+**Verifiserte fakta:** Helsedirektoratet gjennomførte i 2025 utredningen *Veien til en smidigere brukerreise for forvaltningen og næringslivet — Helsedirektoratets utredning på alkoholområdet* (offentlig, publisert 25. april 2025). Den peker på at regelverket på alkoholområdet er forankret i flere ulike lov- og forvaltningsområder, med oppgaver spredt på flere departementer som regelverkseiere og bevillingsmyndighet fordelt på Helsedirektoratet, statsforvalterne, samtlige kommuner og Skatteetaten. Utredningens målbilde er en stegvis satsning mot en nasjonal portal og en modulbasert prosess- og beslutningsstøtte basert på nasjonale felleskomponenter. Som oppfølging er Helsedirektoratet i gang med et Stimulab-prosjekt (med PwC, støttet av Digdir/DOGA og forankret i DFØs nettverk for regelverksforvaltning) som bygger en **«digital tvilling»** av regelverkssystemet for å utforske hvordan regelverk kan forenkles på tvers av forvaltningsområder.
+
+**Hva det viser oss.** Alkoholfloken er nesten en sektorvis instansiering av hele stabelen vår, og forankrer fire poeng empirisk:
+
+1. **Fragmentering i nasjonal skala.** Flere regelverk, fem departementer som eiere, og bevillingsmyndighet hos staten *og* alle kommuner — det er besøksbidragets «mange aktører, samme regel» forstørret, og dermed hull 1 og 5 i renform.
+2. **Høringskjeden er fortsatt ikke digital.** En saksbehandler beskriver å sende høring digitalt til politiet, som svarer i vanlig postgang. Det er analog-overlevering-problemet i én setning — og det samme poenget som Schartums e-høringsprototype reiste for ~18 år siden (jf. [`05`](05-kildelaget-og-lovprosessen.md)).
+3. **Ex-ante-simulering operasjonalisert.** Tvillingen stiller to spørsmål — hvordan påvirkes brukerne av endringer i systemet, og hvordan påvirkes systemet av endringer i lover og regler — som i praksis er lovspeil ([`05`](05-kildelaget-og-lovprosessen.md)) og ex-ante-differensialanalyse ([`03`](03-kunnskapsgrunnlag.md)) satt i arbeid.
+4. **«Regelverket er rotårsaken.»** Diagnosen — at problemene skyldes regelverk, organisering, informasjon, prosesser og teknologi, med regelverket først — er vår egen tese fra [`05`](05-kildelaget-og-lovprosessen.md): kildeproblem øverst, ikke kodeproblem nederst.
+
+**Advarselen — og hvorfor den styrker rammeverket.** Tvillingen er bygget på LLM-agenter, og simuleringene er KI-generert resonnement, ikke deterministisk regelkjøring. Prosjektet treffer rollen riktig — agenten «gir ikke fasitsvar», og i et eksempel (servering etter kl. 03:00 under et mesterskap) *flagger* den at en kommunal dispensasjonsvei er skjønnsbasert og kan utfordre rettssikkerheten, i stedet for å regne skjønnet bort. Prosjektets eget risikobilde navngir motsatsen: hallusinering, for høy tillit til teknologien, og at tvillingen forvitrer over tid. Det er ikke en motsigelse av rammeverket — det er en levende demonstrasjon av grensen vi trekker i [`06`](06-regellaget.md): KI som simulator/utforsker er nyttig; KI som autoritativ avgjørelsesmotor er det ikke.
+
+**Forbehold.** Vi gjengir ikke prosjektets interne presentasjonsmateriale; påstandene over er forankret i den offentlige utredningen og DFØs nettverksomtale. Detaljer fra demo og workshoper er behandlet som bakgrunn.
+
+Knytter til: hull 1, 3 og 5; prinsippene om sporbarhet, skjønn (4) og delte regler (9); og ex-ante-pilaren i [kunnskapsgrunnlaget](03-kunnskapsgrunnlag.md).
+
+---
+
+## Hva de fire sammen viser
+
+Besøksbidrag er **muligheten** — et levende lovarbeid der vi kan vise digital-ready regelverk i praksis. Fritidsbolig-modellen er **kostnaden ved å la være** — dyr, sen og ugjennomsiktig manuell konsekvensvurdering som likevel kollapser. Barnehagetilskuddet er **dagens nødløsning** — regler som regneark, kopiert og feilbeheftet. Alkoholfloken er **forsøket på å gjøre det riktig nå** — en fragmentert flok som angripes med systemorientert design og ex-ante-simulering, der til og med grensen mot skjønn synliggjøres. Til sammen er de et konkret, norsk argument for å gjøre strukturerte, autoritative regler og ex-ante regelmodellering til en standard del av regelverksarbeidet, slik [veikartet](02-veikart.md) foreslår.
